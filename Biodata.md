@@ -1,5 +1,5 @@
-Nama : Abdullah Affandi
+# Biodata
 
-NIM : 25071207746
-
-Prodi : S1 Teknik Informatika
+* Nama : Abdullah Affandi
+* NIM : 25071207746
+* Prodi : S1 Teknik Informatika
