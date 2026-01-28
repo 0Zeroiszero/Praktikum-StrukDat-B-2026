@@ -1,7 +1,7 @@
-nama: str  = "Abdullah Affandi"
+Nama: str  = "Abdullah Affandi"
 NIM: str = "25071207746"
 
 print(f"""  
-Nama: {nama}
+Nama: {Nama}
 NIM: {NIM}
 """)
