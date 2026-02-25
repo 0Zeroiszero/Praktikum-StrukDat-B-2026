@@ -9,7 +9,7 @@ count_result = sample_tuple.count(2)  # Hasil: 4
 # index() - Mencari index pertama value dengan parameter tambahan
 index_result1 = sample_tuple.index(2)
 index_result2 = sample_tuple.index(2, 2)
-index_result3 = sample_tuple.index(2, 4, 7)              
+index_result3 = sample_tuple.index(2, 4, 7)
 
 print("Hasil implementasi method tuple:")
 print(f"Tuple: {sample_tuple}")

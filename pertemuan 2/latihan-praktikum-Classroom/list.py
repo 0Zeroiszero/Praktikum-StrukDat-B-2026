@@ -9,10 +9,10 @@ my_list.append(2)
 my_list.extend([3, 4])
 
 # insert() - Menyisipkan elemen pada indeks tertentu
-my_list.insert(1, 'baru')
+my_list.insert(1, "baru")
 
 # remove() - Menghapus elemen pertama dengan nilai tertentu
-my_list.remove('baru')
+my_list.remove("baru")
 
 # pop() - Menghapus dan mengembalikan elemen (indeks tertentu atau terakhir)
 last_item = my_list.pop()
