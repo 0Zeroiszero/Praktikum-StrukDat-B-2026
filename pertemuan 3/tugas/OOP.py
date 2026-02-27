@@ -74,3 +74,33 @@ plane1 = Plane("Boeing", "747")  # Create a Plane object
 
 for x in (car1, boat1, plane1):
     x.move()
+
+
+# Properti Privat adalah konsep dalam pemrograman berorientasi objek (OOP)
+# yang digunakan untuk menyembunyikan data
+# atau atribut dari akses langsung oleh kode di luar kelas.
+# Properti privat biasanya ditandai dengan menggunakan
+# tanda underscore ganda (__) sebelum nama atribut.
+# Ini adalah cara untuk menunjukkan bahwa atribut tersebut seharusnya
+# tidak diakses langsung dari luar kelas, melainkan melalui metode atau
+# fungsi yang disediakan oleh kelas itu sendiri.
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.__age = age
+
+    def get_age(self):
+        return self.__age
+
+    def set_age(self, age):
+        if age > 0:
+            self.__age = age
+        else:
+            print("Age must be positive")
+
+
+p1 = Person("Tobias", 25)
+print(p1.get_age())  # Cara mengakses properti privat menggunakan getter
+
+p1.set_age(26)
+print(p1.get_age())  # Cara mengubah properti privat menggunakan setter
