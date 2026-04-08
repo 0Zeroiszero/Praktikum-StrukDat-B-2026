@@ -1,6 +1,7 @@
 class Node:
     """Node Double Linked List yang menyimpan data buku."""
-    __slots__ = ('judul', 'pengarang', 'prev', 'next')
+
+    __slots__ = ("judul", "pengarang", "prev", "next")
 
     def __init__(self, judul: str, pengarang: str):
         self.judul = judul
@@ -64,7 +65,7 @@ class DoubleLinkedList:
         curr = self.head
         idx = 1
         while curr:
-            print(f"  {idx}. \"{curr.judul}\" — {curr.pengarang}")
+            print(f'  {idx}. "{curr.judul}" — {curr.pengarang}')
             curr = curr.next
             idx += 1
 
@@ -77,7 +78,7 @@ class DoubleLinkedList:
         curr = self.tail
         idx = 1
         while curr:
-            print(f"  {idx}. \"{curr.judul}\" — {curr.pengarang}")
+            print(f'  {idx}. "{curr.judul}" — {curr.pengarang}')
             curr = curr.prev
             idx += 1
 
@@ -95,7 +96,7 @@ if __name__ == "__main__":
     print()
 
     deleted = dll.delete_by_judul("Bumi Manusia")
-    print(f"Hapus \"Bumi Manusia\": {'Berhasil' if deleted else 'Gagal'}\n")
+    print(f'Hapus "Bumi Manusia": {"Berhasil" if deleted else "Gagal"}\n')
 
     dll.print_forward()
     print()

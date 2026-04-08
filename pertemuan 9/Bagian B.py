@@ -1,6 +1,7 @@
 class Node:
     """Node Circular Linked List yang menyimpan nama pelanggan."""
-    __slots__ = ('nama', 'next')
+
+    __slots__ = ("nama", "next")
 
     def __init__(self, nama: str):
         self.nama = nama
@@ -74,5 +75,5 @@ if __name__ == "__main__":
     print()
 
     deleted = cq.delete_head()
-    print(f"Hapus \"Andi\": {'Berhasil' if deleted else 'Gagal'}")
+    print(f'Hapus "Andi": {"Berhasil" if deleted else "Gagal"}')
     cq.print_antrian()
