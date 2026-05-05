@@ -1,7 +1,7 @@
 [project]
 name = "pertemuan-12"
 version = "0.1.0"
-description = "Add your description here"
+description = "Tugas-tugas pada Pertemuan 12 (Classroom)"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = []
