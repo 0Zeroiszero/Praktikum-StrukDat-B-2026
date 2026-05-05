@@ -1,5 +1,6 @@
 from node_bst import BST
 
+
 def main():
     buku = [
         (50, "Dasar Pemrograman"),
@@ -39,6 +40,7 @@ def main():
 
     print("=" * 50)
     print("Simulasi Selesai!")
+
 
 if __name__ == "__main__":
     main()

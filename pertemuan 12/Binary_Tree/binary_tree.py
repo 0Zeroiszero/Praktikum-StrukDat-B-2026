@@ -1,5 +1,6 @@
 from node import BinaryTree
 
+
 def main():
     print('SISTEM AUDIT DISTRIBUSI "CEPAT SAMPAI"')
     print("=" * 55)
@@ -14,6 +15,7 @@ def main():
     print("\n[DATA] Gudang Ujung (Leaf Nodes): " + ", ".join(pohon.get_leaf_nodes()))
     print("=" * 55)
     print("Audit Selesai!")
+
 
 if __name__ == "__main__":
     main()
