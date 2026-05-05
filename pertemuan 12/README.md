@@ -1,5 +1,5 @@
 Tugas dipisah ke dalam 2 folder:
-
+```
 📦Binary_Search_Tree
  ┣ 📂__pycache__
  ┃ ┗ 📜node_bst.cpython-314.pyc
@@ -11,3 +11,4 @@ Tugas dipisah ke dalam 2 folder:
  ┃ ┗ 📜node.cpython-314.pyc
  ┣ 📜binary_tree.py
  ┗ 📜node.py
+ ```
